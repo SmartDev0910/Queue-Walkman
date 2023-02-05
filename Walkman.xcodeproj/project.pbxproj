@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9093B412963A7A100E8B8A0 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B402963A7A100E8B8A0 /* AppTabBarView.swift */; };
+		E9093B432963A8BE00E8B8A0 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B422963A8BE00E8B8A0 /* CustomTabBarView.swift */; };
+		E9093B452963AC3900E8B8A0 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B442963AC3900E8B8A0 /* CustomTabBarContainerView.swift */; };
+		E9093B472963AFA400E8B8A0 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B462963AFA400E8B8A0 /* TabBarItemsPreferenceKey.swift */; };
+		E9093B4A2963C45B00E8B8A0 /* StoreCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B492963C45B00E8B8A0 /* StoreCardView.swift */; };
+		E9093B502963D53C00E8B8A0 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B4F2963D53C00E8B8A0 /* UserProfileView.swift */; };
+		E9093B532963E94000E8B8A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B522963E94000E8B8A0 /* LoginView.swift */; };
+		E9093B552963F76A00E8B8A0 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B542963F76A00E8B8A0 /* RegistrationView.swift */; };
+		E9093B57296499E800E8B8A0 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B56296499E800E8B8A0 /* ColorExtensions.swift */; };
+		E9093B5929649A2100E8B8A0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B5829649A2100E8B8A0 /* CustomTextField.swift */; };
+		E9093B5B2964C2E300E8B8A0 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B5A2964C2E300E8B8A0 /* Order.swift */; };
+		E9093B5D2964C31B00E8B8A0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B5C2964C31B00E8B8A0 /* User.swift */; };
+		E9093B5F2964C39200E8B8A0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B5E2964C39200E8B8A0 /* Common.swift */; };
+		E9093B612964C8E400E8B8A0 /* StoreCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B602964C8E400E8B8A0 /* StoreCardDetailView.swift */; };
+		E9093B642964E1EF00E8B8A0 /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9093B632964E1EF00E8B8A0 /* ItemCard.swift */; };
+		E90DB143296B62AB00441A91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E90DB142296B62AB00441A91 /* GoogleService-Info.plist */; };
+		E90DB145296F4AD400441A91 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DB144296F4AD400441A91 /* OrderModel.swift */; };
+		E90DB1492970DFEE00441A91 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DB1482970DFEE00441A91 /* PriceView.swift */; };
+		E90DB14B29710B7500441A91 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DB14A29710B7500441A91 /* AddressView.swift */; };
+		E90DB15129720DDA00441A91 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DB15029720DDA00441A91 /* DashboardView.swift */; };
+		E90DB15329721A6800441A91 /* OrderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DB15229721A6800441A91 /* OrderCardView.swift */; };
+		E90DB156297238CB00441A91 /* StoreToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DB155297238CB00441A91 /* StoreToolbar.swift */; };
+		E90DB15829723A2700441A91 /* StoreProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DB15729723A2700441A91 /* StoreProfileView.swift */; };
+		E90DB15B2976480700441A91 /* DriverToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DB15A2976480700441A91 /* DriverToolbar.swift */; };
+		E953D65529271CE900D508C9 /* WalkmanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D65429271CE900D508C9 /* WalkmanApp.swift */; };
+		E953D65929271CEA00D508C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E953D65829271CEA00D508C9 /* Assets.xcassets */; };
+		E953D65C29271CEA00D508C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E953D65B29271CEA00D508C9 /* Preview Assets.xcassets */; };
+		E953D66629271CEA00D508C9 /* WalkmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D66529271CEA00D508C9 /* WalkmanTests.swift */; };
+		E953D67029271CEA00D508C9 /* WalkmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D66F29271CEA00D508C9 /* WalkmanUITests.swift */; };
+		E953D67229271CEA00D508C9 /* WalkmanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D67129271CEA00D508C9 /* WalkmanUITestsLaunchTests.swift */; };
+		E9561A5C29775F3B000EDD84 /* QuantityButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9561A5B29775F3B000EDD84 /* QuantityButtonView.swift */; };
+		E9D634EB2964E92500716EB4 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D634EA2964E92500716EB4 /* CartButton.swift */; };
+		E9D634EE2964EED100716EB4 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D634ED2964EED100716EB4 /* CartView.swift */; };
+		E9D634F02964EF7600716EB4 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D634EF2964EF7600716EB4 /* CartManager.swift */; };
+		E9D634F82965107100716EB4 /* ItemRowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D634F72965107100716EB4 /* ItemRowCard.swift */; };
+		E9D634FA296514C600716EB4 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D634F9296514C600716EB4 /* PaymentButton.swift */; };
+		E9D634FD2965322200716EB4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D634FC2965322200716EB4 /* Network.swift */; };
+		E9D634FF2965350F00716EB4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D634FE2965350F00716EB4 /* UserModel.swift */; };
+		E9D635012966310E00716EB4 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D635002966310E00716EB4 /* Store.swift */; };
+		E9D6350329663DA400716EB4 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D6350229663DA400716EB4 /* StoreModel.swift */; };
+		E9DF63D52968CB5500562E2A /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF63D42968CB5500562E2A /* PaymentHandler.swift */; };
+		E9DF63D82968D7AA00562E2A /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF63D72968D7AA00562E2A /* OrderView.swift */; };
+		E9DF63DA2968D8A400562E2A /* OrderRowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF63D92968D8A400562E2A /* OrderRowCard.swift */; };
+		E9DF63DC2968EA3200562E2A /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF63DB2968EA3200562E2A /* LocationModel.swift */; };
+		E9DF63F1296A0F1F00562E2A /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF63F0296A0F1F00562E2A /* Driver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E953D66229271CEA00D508C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E953D64929271CE900D508C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E953D65029271CE900D508C9;
+			remoteInfo = Walkman;
+		};
+		E953D66C29271CEA00D508C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E953D64929271CE900D508C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E953D65029271CE900D508C9;
+			remoteInfo = Walkman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9093B402963A7A100E8B8A0 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		E9093B422963A8BE00E8B8A0 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		E9093B442963AC3900E8B8A0 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		E9093B462963AFA400E8B8A0 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		E9093B492963C45B00E8B8A0 /* StoreCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCardView.swift; sourceTree = "<group>"; };
+		E9093B4F2963D53C00E8B8A0 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		E9093B522963E94000E8B8A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E9093B542963F76A00E8B8A0 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		E9093B56296499E800E8B8A0 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		E9093B5829649A2100E8B8A0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E9093B5A2964C2E300E8B8A0 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E9093B5C2964C31B00E8B8A0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E9093B5E2964C39200E8B8A0 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E9093B602964C8E400E8B8A0 /* StoreCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCardDetailView.swift; sourceTree = "<group>"; };
+		E9093B632964E1EF00E8B8A0 /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
+		E90DB142296B62AB00441A91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E90DB144296F4AD400441A91 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		E90DB1482970DFEE00441A91 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		E90DB14A29710B7500441A91 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		E90DB15029720DDA00441A91 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E90DB15229721A6800441A91 /* OrderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCardView.swift; sourceTree = "<group>"; };
+		E90DB155297238CB00441A91 /* StoreToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreToolbar.swift; sourceTree = "<group>"; };
+		E90DB15729723A2700441A91 /* StoreProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreProfileView.swift; sourceTree = "<group>"; };
+		E90DB15A2976480700441A91 /* DriverToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverToolbar.swift; sourceTree = "<group>"; };
+		E953D65129271CE900D508C9 /* Walkman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walkman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E953D65429271CE900D508C9 /* WalkmanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkmanApp.swift; sourceTree = "<group>"; };
+		E953D65829271CEA00D508C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E953D65B29271CEA00D508C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E953D66129271CEA00D508C9 /* WalkmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E953D66529271CEA00D508C9 /* WalkmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkmanTests.swift; sourceTree = "<group>"; };
+		E953D66B29271CEA00D508C9 /* WalkmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E953D66F29271CEA00D508C9 /* WalkmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkmanUITests.swift; sourceTree = "<group>"; };
+		E953D67129271CEA00D508C9 /* WalkmanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkmanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9561A5B29775F3B000EDD84 /* QuantityButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityButtonView.swift; sourceTree = "<group>"; };
+		E9D634EA2964E92500716EB4 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		E9D634ED2964EED100716EB4 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		E9D634EF2964EF7600716EB4 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		E9D634F72965107100716EB4 /* ItemRowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowCard.swift; sourceTree = "<group>"; };
+		E9D634F9296514C600716EB4 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		E9D634FC2965322200716EB4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E9D634FE2965350F00716EB4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E9D635002966310E00716EB4 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		E9D6350229663DA400716EB4 /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		E9DF63D32968C8F400562E2A /* Walkman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Walkman.entitlements; sourceTree = "<group>"; };
+		E9DF63D42968CB5500562E2A /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		E9DF63D72968D7AA00562E2A /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		E9DF63D92968D8A400562E2A /* OrderRowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowCard.swift; sourceTree = "<group>"; };
+		E9DF63DB2968EA3200562E2A /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		E9DF63F0296A0F1F00562E2A /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E953D64E29271CE900D508C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D65E29271CEA00D508C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D66829271CEA00D508C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9093B3F2963A78300E8B8A0 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E9093B402963A7A100E8B8A0 /* AppTabBarView.swift */,
+				E9093B422963A8BE00E8B8A0 /* CustomTabBarView.swift */,
+				E9093B442963AC3900E8B8A0 /* CustomTabBarContainerView.swift */,
+				E9093B462963AFA400E8B8A0 /* TabBarItemsPreferenceKey.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		E9093B482963C43900E8B8A0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E9093B622964E1DB00E8B8A0 /* StoreDetail */,
+				E9093B492963C45B00E8B8A0 /* StoreCardView.swift */,
+				E9093B602964C8E400E8B8A0 /* StoreCardDetailView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E9093B4D2963D4FE00E8B8A0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E9093B5829649A2100E8B8A0 /* CustomTextField.swift */,
+				E90DB14A29710B7500441A91 /* AddressView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E9093B4E2963D52700E8B8A0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E9093B4F2963D53C00E8B8A0 /* UserProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E9093B512963E92700E8B8A0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E9093B522963E94000E8B8A0 /* LoginView.swift */,
+				E9093B542963F76A00E8B8A0 /* RegistrationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E9093B622964E1DB00E8B8A0 /* StoreDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E9093B632964E1EF00E8B8A0 /* ItemCard.swift */,
+				E9D634EA2964E92500716EB4 /* CartButton.swift */,
+			);
+			path = StoreDetail;
+			sourceTree = "<group>";
+		};
+		E90DB14C29720D6B00441A91 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF63D62968D79A00562E2A /* Order */,
+				E9D634EC2964EEC700716EB4 /* Cart */,
+				E9093B4E2963D52700E8B8A0 /* Profile */,
+				E9093B482963C43900E8B8A0 /* Home */,
+				E9093B3F2963A78300E8B8A0 /* CustomTabBar */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		E90DB14D29720D8F00441A91 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				E90DB154297238AA00441A91 /* Toolbar */,
+				E90DB14F29720DC400441A91 /* Dashboard */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		E90DB14E29720DAB00441A91 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				E90DB15929763B9E00441A91 /* Toolbar */,
+			);
+			path = Driver;
+			sourceTree = "<group>";
+		};
+		E90DB14F29720DC400441A91 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				E90DB15029720DDA00441A91 /* DashboardView.swift */,
+				E90DB15229721A6800441A91 /* OrderCardView.swift */,
+				E90DB15729723A2700441A91 /* StoreProfileView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		E90DB154297238AA00441A91 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E90DB155297238CB00441A91 /* StoreToolbar.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		E90DB15929763B9E00441A91 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E90DB15A2976480700441A91 /* DriverToolbar.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		E953D64829271CE900D508C9 = {
+			isa = PBXGroup;
+			children = (
+				E953D65329271CE900D508C9 /* Walkman */,
+				E953D66429271CEA00D508C9 /* WalkmanTests */,
+				E953D66E29271CEA00D508C9 /* WalkmanUITests */,
+				E953D65229271CE900D508C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E953D65229271CE900D508C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E953D65129271CE900D508C9 /* Walkman.app */,
+				E953D66129271CEA00D508C9 /* WalkmanTests.xctest */,
+				E953D66B29271CEA00D508C9 /* WalkmanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E953D65329271CE900D508C9 /* Walkman */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF63D32968C8F400562E2A /* Walkman.entitlements */,
+				E953D68529271D4200D508C9 /* Utils */,
+				E953D68129271D1400D508C9 /* Model */,
+				E953D68429271D3C00D508C9 /* Service */,
+				E9D634F22964FFF500716EB4 /* ViewModel */,
+				E953D68229271D3300D508C9 /* View */,
+				E953D65429271CE900D508C9 /* WalkmanApp.swift */,
+				E90DB142296B62AB00441A91 /* GoogleService-Info.plist */,
+				E953D65829271CEA00D508C9 /* Assets.xcassets */,
+				E953D65A29271CEA00D508C9 /* Preview Content */,
+			);
+			path = Walkman;
+			sourceTree = "<group>";
+		};
+		E953D65A29271CEA00D508C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E953D65B29271CEA00D508C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E953D66429271CEA00D508C9 /* WalkmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				E953D66529271CEA00D508C9 /* WalkmanTests.swift */,
+			);
+			path = WalkmanTests;
+			sourceTree = "<group>";
+		};
+		E953D66E29271CEA00D508C9 /* WalkmanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E953D66F29271CEA00D508C9 /* WalkmanUITests.swift */,
+				E953D67129271CEA00D508C9 /* WalkmanUITestsLaunchTests.swift */,
+			);
+			path = WalkmanUITests;
+			sourceTree = "<group>";
+		};
+		E953D68129271D1400D508C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9093B5A2964C2E300E8B8A0 /* Order.swift */,
+				E9093B5C2964C31B00E8B8A0 /* User.swift */,
+				E9093B5E2964C39200E8B8A0 /* Common.swift */,
+				E9D635002966310E00716EB4 /* Store.swift */,
+				E9DF63F0296A0F1F00562E2A /* Driver.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E953D68229271D3300D508C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E90DB14E29720DAB00441A91 /* Driver */,
+				E90DB14D29720D8F00441A91 /* Store */,
+				E9093B4D2963D4FE00E8B8A0 /* Common */,
+				E9093B512963E92700E8B8A0 /* Authentication */,
+				E90DB14C29720D6B00441A91 /* User */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E953D68429271D3C00D508C9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E9D634FB2965321300716EB4 /* Network */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E953D68529271D4200D508C9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9093B56296499E800E8B8A0 /* ColorExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E9D634EC2964EEC700716EB4 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				E9D634ED2964EED100716EB4 /* CartView.swift */,
+				E9D634EF2964EF7600716EB4 /* CartManager.swift */,
+				E9D634F72965107100716EB4 /* ItemRowCard.swift */,
+				E9D634F9296514C600716EB4 /* PaymentButton.swift */,
+				E9DF63D42968CB5500562E2A /* PaymentHandler.swift */,
+				E90DB1482970DFEE00441A91 /* PriceView.swift */,
+				E9561A5B29775F3B000EDD84 /* QuantityButtonView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		E9D634F22964FFF500716EB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9D634FE2965350F00716EB4 /* UserModel.swift */,
+				E9D6350229663DA400716EB4 /* StoreModel.swift */,
+				E9DF63DB2968EA3200562E2A /* LocationModel.swift */,
+				E90DB144296F4AD400441A91 /* OrderModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E9D634FB2965321300716EB4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E9D634FC2965322200716EB4 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E9DF63D62968D79A00562E2A /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF63D72968D7AA00562E2A /* OrderView.swift */,
+				E9DF63D92968D8A400562E2A /* OrderRowCard.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E953D65029271CE900D508C9 /* Walkman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E953D67529271CEA00D508C9 /* Build configuration list for PBXNativeTarget "Walkman" */;
+			buildPhases = (
+				E953D64D29271CE900D508C9 /* Sources */,
+				E953D64E29271CE900D508C9 /* Frameworks */,
+				E953D64F29271CE900D508C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Walkman;
+			packageProductDependencies = (
+			);
+			productName = Walkman;
+			productReference = E953D65129271CE900D508C9 /* Walkman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E953D66029271CEA00D508C9 /* WalkmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E953D67829271CEA00D508C9 /* Build configuration list for PBXNativeTarget "WalkmanTests" */;
+			buildPhases = (
+				E953D65D29271CEA00D508C9 /* Sources */,
+				E953D65E29271CEA00D508C9 /* Frameworks */,
+				E953D65F29271CEA00D508C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E953D66329271CEA00D508C9 /* PBXTargetDependency */,
+			);
+			name = WalkmanTests;
+			productName = WalkmanTests;
+			productReference = E953D66129271CEA00D508C9 /* WalkmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E953D66A29271CEA00D508C9 /* WalkmanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E953D67B29271CEA00D508C9 /* Build configuration list for PBXNativeTarget "WalkmanUITests" */;
+			buildPhases = (
+				E953D66729271CEA00D508C9 /* Sources */,
+				E953D66829271CEA00D508C9 /* Frameworks */,
+				E953D66929271CEA00D508C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E953D66D29271CEA00D508C9 /* PBXTargetDependency */,
+			);
+			name = WalkmanUITests;
+			productName = WalkmanUITests;
+			productReference = E953D66B29271CEA00D508C9 /* WalkmanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E953D64929271CE900D508C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E953D65029271CE900D508C9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E953D66029271CEA00D508C9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E953D65029271CE900D508C9;
+					};
+					E953D66A29271CEA00D508C9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E953D65029271CE900D508C9;
+					};
+				};
+			};
+			buildConfigurationList = E953D64C29271CE900D508C9 /* Build configuration list for PBXProject "Walkman" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E953D64829271CE900D508C9;
+			packageReferences = (
+			);
+			productRefGroup = E953D65229271CE900D508C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E953D65029271CE900D508C9 /* Walkman */,
+				E953D66029271CEA00D508C9 /* WalkmanTests */,
+				E953D66A29271CEA00D508C9 /* WalkmanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E953D64F29271CE900D508C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E953D65C29271CEA00D508C9 /* Preview Assets.xcassets in Resources */,
+				E953D65929271CEA00D508C9 /* Assets.xcassets in Resources */,
+				E90DB143296B62AB00441A91 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D65F29271CEA00D508C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D66929271CEA00D508C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E953D64D29271CE900D508C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D634EE2964EED100716EB4 /* CartView.swift in Sources */,
+				E9093B5D2964C31B00E8B8A0 /* User.swift in Sources */,
+				E9D634FA296514C600716EB4 /* PaymentButton.swift in Sources */,
+				E9DF63D52968CB5500562E2A /* PaymentHandler.swift in Sources */,
+				E9093B612964C8E400E8B8A0 /* StoreCardDetailView.swift in Sources */,
+				E9093B642964E1EF00E8B8A0 /* ItemCard.swift in Sources */,
+				E9D6350329663DA400716EB4 /* StoreModel.swift in Sources */,
+				E9D635012966310E00716EB4 /* Store.swift in Sources */,
+				E9093B502963D53C00E8B8A0 /* UserProfileView.swift in Sources */,
+				E9093B5929649A2100E8B8A0 /* CustomTextField.swift in Sources */,
+				E9093B57296499E800E8B8A0 /* ColorExtensions.swift in Sources */,
+				E9093B432963A8BE00E8B8A0 /* CustomTabBarView.swift in Sources */,
+				E9093B412963A7A100E8B8A0 /* AppTabBarView.swift in Sources */,
+				E9DF63DC2968EA3200562E2A /* LocationModel.swift in Sources */,
+				E90DB15329721A6800441A91 /* OrderCardView.swift in Sources */,
+				E9D634FF2965350F00716EB4 /* UserModel.swift in Sources */,
+				E9DF63F1296A0F1F00562E2A /* Driver.swift in Sources */,
+				E90DB145296F4AD400441A91 /* OrderModel.swift in Sources */,
+				E90DB14B29710B7500441A91 /* AddressView.swift in Sources */,
+				E9093B5F2964C39200E8B8A0 /* Common.swift in Sources */,
+				E9093B552963F76A00E8B8A0 /* RegistrationView.swift in Sources */,
+				E90DB156297238CB00441A91 /* StoreToolbar.swift in Sources */,
+				E9093B5B2964C2E300E8B8A0 /* Order.swift in Sources */,
+				E953D65529271CE900D508C9 /* WalkmanApp.swift in Sources */,
+				E9D634F82965107100716EB4 /* ItemRowCard.swift in Sources */,
+				E9093B452963AC3900E8B8A0 /* CustomTabBarContainerView.swift in Sources */,
+				E9093B4A2963C45B00E8B8A0 /* StoreCardView.swift in Sources */,
+				E90DB1492970DFEE00441A91 /* PriceView.swift in Sources */,
+				E9D634F02964EF7600716EB4 /* CartManager.swift in Sources */,
+				E90DB15129720DDA00441A91 /* DashboardView.swift in Sources */,
+				E9093B532963E94000E8B8A0 /* LoginView.swift in Sources */,
+				E90DB15829723A2700441A91 /* StoreProfileView.swift in Sources */,
+				E9093B472963AFA400E8B8A0 /* TabBarItemsPreferenceKey.swift in Sources */,
+				E9DF63D82968D7AA00562E2A /* OrderView.swift in Sources */,
+				E9D634EB2964E92500716EB4 /* CartButton.swift in Sources */,
+				E90DB15B2976480700441A91 /* DriverToolbar.swift in Sources */,
+				E9D634FD2965322200716EB4 /* Network.swift in Sources */,
+				E9561A5C29775F3B000EDD84 /* QuantityButtonView.swift in Sources */,
+				E9DF63DA2968D8A400562E2A /* OrderRowCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D65D29271CEA00D508C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E953D66629271CEA00D508C9 /* WalkmanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D66729271CEA00D508C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E953D67229271CEA00D508C9 /* WalkmanUITestsLaunchTests.swift in Sources */,
+				E953D67029271CEA00D508C9 /* WalkmanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E953D66329271CEA00D508C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E953D65029271CE900D508C9 /* Walkman */;
+			targetProxy = E953D66229271CEA00D508C9 /* PBXContainerItemProxy */;
+		};
+		E953D66D29271CEA00D508C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E953D65029271CE900D508C9 /* Walkman */;
+			targetProxy = E953D66C29271CEA00D508C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E953D67329271CEA00D508C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E953D67429271CEA00D508C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E953D67629271CEA00D508C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Walkman/Walkman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Walkman/Preview Content\"";
+				DEVELOPMENT_TEAM = GR6JR4U6QV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Walkman would like to use your current location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "location-services gps";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Queue.Walkman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E953D67729271CEA00D508C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Walkman/Walkman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Walkman/Preview Content\"";
+				DEVELOPMENT_TEAM = GR6JR4U6QV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Walkman would like to use your current location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "location-services gps";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Queue.Walkman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E953D67929271CEA00D508C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Queue.WalkmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkman.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Walkman";
+			};
+			name = Debug;
+		};
+		E953D67A29271CEA00D508C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Queue.WalkmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkman.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Walkman";
+			};
+			name = Release;
+		};
+		E953D67C29271CEA00D508C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Queue.WalkmanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkman;
+			};
+			name = Debug;
+		};
+		E953D67D29271CEA00D508C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Queue.WalkmanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkman;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E953D64C29271CE900D508C9 /* Build configuration list for PBXProject "Walkman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E953D67329271CEA00D508C9 /* Debug */,
+				E953D67429271CEA00D508C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E953D67529271CEA00D508C9 /* Build configuration list for PBXNativeTarget "Walkman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E953D67629271CEA00D508C9 /* Debug */,
+				E953D67729271CEA00D508C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E953D67829271CEA00D508C9 /* Build configuration list for PBXNativeTarget "WalkmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E953D67929271CEA00D508C9 /* Debug */,
+				E953D67A29271CEA00D508C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E953D67B29271CEA00D508C9 /* Build configuration list for PBXNativeTarget "WalkmanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E953D67C29271CEA00D508C9 /* Debug */,
+				E953D67D29271CEA00D508C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E953D64929271CE900D508C9 /* Project object */;
+}
